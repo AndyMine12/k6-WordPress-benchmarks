@@ -204,6 +204,8 @@ export function customer (data) {
 
         //submit username / password on form
         let user = generateUsername(data.username, data.usernameRange.start, data.usernameRange.end)
+        //TEST
+        console.log("PAINnSUFFER --> " + user + " | " + data.password)
         const formResponse = response.submitForm({
             formSelector: 'form.woocommerce-form-login',
             params: data.params,

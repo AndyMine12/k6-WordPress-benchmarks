@@ -19,7 +19,8 @@ export let options = {
   stages: [
     { duration: '15m', target: 1000 },
   ],
-  ext: {
+  //This is for testing with k6-cloud. Tests will be run locally, thus, this is not needed
+  /*ext: {
     loadimpact: {
       distribution: {
         Virginia: { loadZone: 'amazon:us:ashburn', percent: 10 },
@@ -34,7 +35,7 @@ export let options = {
         Brazil: { loadZone: 'amazon:br:sao paulo', percent: 10 },
       },
     },
-  },
+  }*/
 }
 
 export default function () {

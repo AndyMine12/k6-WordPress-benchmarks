@@ -41,8 +41,8 @@ export const options = {
             tags: { wc_scenario: 'homepage' },
 
             stages: [
-                { duration: '5m', target: 500 },//ramp up to 500
-                { duration: '15m', target: 500 },//stay at 500
+                { duration: '5m', target: 65 },//ramp up to 500
+                { duration: '5m', target: 65 },//stay at 500
             ],
         },
         browser_scenario: {
@@ -56,8 +56,8 @@ export const options = {
             tags: { wc_scenario: 'browser' },
 
             stages: [
-                { duration: '5m', target: 200 },
-                { duration: '15m', target: 200 },
+                { duration: '5m', target: 65 },
+                { duration: '5m', target: 65 },
             ],
         },
         buyer_scenario: {
@@ -71,8 +71,8 @@ export const options = {
             tags: { wc_scenario: 'buyer' },
 
             stages: [
-                { duration: '5m', target: 200 },
-                { duration: '15m', target: 200 },
+                { duration: '5m', target: 20 },
+                { duration: '5m', target: 20 },
             ],
         },
         customer_scenario: {
@@ -86,8 +86,8 @@ export const options = {
             tags: { wc_scenario: 'customer' },
 
             stages: [
-                { duration: '5m', target: 100 },
-                { duration: '15m', target: 100 },
+                { duration: '5m', target: 50 },
+                { duration: '5m', target: 50 },
             ],
         },
     },
